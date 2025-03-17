@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+ <!--
+      SPDX-FileCopyrightText: 2024 Paranoid Android
+      SPDX-License-Identifier: Apache-2.0
+ -->
+ <manifest>
+   <include name="../platforms/bengal.xml" />
+ 
+   <project path="kernel/motorola/sm6225" name="4mede/josekernel" remote="github" revision="Fifteen"/>
+  <project path="hardware/motorola" name="AOSPA/android_hardware_motorola" remote="github" revision="uvite" />
+ </manifest>
