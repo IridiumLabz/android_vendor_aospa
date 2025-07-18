@@ -8,6 +8,7 @@ PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/alioth/aospa_alioth.mk \
     $(LOCAL_DIR)/apollo/aospa_apollo.mk \
     $(LOCAL_DIR)/bitra/aospa_bitra.mk \
+    $(LOCAL_DIR)/borneo/aospa_borneo.mk \
     $(LOCAL_DIR)/bladerunner/aospa_bladerunner.mk \
     $(LOCAL_DIR)/davinci/aospa_davinci.mk \
     $(LOCAL_DIR)/dubai/aospa_dubai.mk \
@@ -42,6 +43,7 @@ COMMON_LUNCH_CHOICES += \
     aospa_alioth-userdebug \
     aospa_apollo-userdebug \
     aospa_bitra-userdebug \
+    aospa_borneo-userdebug \
     aospa_bladerunner-userdebug \
     aospa_davinci-userdebug \
     aospa_dubai-userdebug \
