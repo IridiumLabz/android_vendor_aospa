@@ -10,6 +10,7 @@ PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/bitra/aospa_bitra.mk \
     $(LOCAL_DIR)/borneo/aospa_borneo.mk \
     $(LOCAL_DIR)/bladerunner/aospa_bladerunner.mk \
+    $(LOCAL_DIR)/caprip/aospa_caprip.mk \
     $(LOCAL_DIR)/davinci/aospa_davinci.mk \
     $(LOCAL_DIR)/dubai/aospa_dubai.mk \
     $(LOCAL_DIR)/fuxi/aospa_fuxi.mk \
@@ -45,6 +46,7 @@ COMMON_LUNCH_CHOICES += \
     aospa_bitra-userdebug \
     aospa_borneo-userdebug \
     aospa_bladerunner-userdebug \
+    aospa_caprip-userdebug \
     aospa_davinci-userdebug \
     aospa_dubai-userdebug \
     aospa_fuxi-userdebug \
