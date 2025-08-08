@@ -10,11 +10,16 @@ PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/bitra/aospa_bitra.mk \
     $(LOCAL_DIR)/borneo/aospa_borneo.mk \
     $(LOCAL_DIR)/bladerunner/aospa_bladerunner.mk \
+    $(LOCAL_DIR)/capri/aospa_capri.mk \
     $(LOCAL_DIR)/caprip/aospa_caprip.mk \
+    $(LOCAL_DIR)/cebu/aospa_cebu.mk \
     $(LOCAL_DIR)/davinci/aospa_davinci.mk \
     $(LOCAL_DIR)/devon/aospa_devon.mk \
     $(LOCAL_DIR)/dubai/aospa_dubai.mk \
     $(LOCAL_DIR)/fuxi/aospa_fuxi.mk \
+    $(LOCAL_DIR)/guam/aospa_guam.mk \
+    $(LOCAL_DIR)/guamp/aospa_guamp.mk \
+    $(LOCAL_DIR)/hawao/aospa_hawao.mk \
     $(LOCAL_DIR)/ishtar/aospa_ishtar.mk \
     $(LOCAL_DIR)/lahaina/aospa_lahaina.mk \
     $(LOCAL_DIR)/lito/aospa_lito.mk \
@@ -35,6 +40,7 @@ PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/phone2/aospa_phone2.mk \
     $(LOCAL_DIR)/porsche/aospa_porsche.mk \
     $(LOCAL_DIR)/psyche/aospa_psyche.mk \
+    $(LOCAL_DIR)/rhode/aospa_rhode.mk \
     $(LOCAL_DIR)/sky/aospa_sky.mk \
     $(LOCAL_DIR)/spes/aospa_spes.mk \
     $(LOCAL_DIR)/sunny/aospa_sunny.mk \
@@ -47,11 +53,16 @@ COMMON_LUNCH_CHOICES += \
     aospa_bitra-userdebug \
     aospa_borneo-userdebug \
     aospa_bladerunner-userdebug \
+    aospa_capri-userdebug \
     aospa_caprip-userdebug \
+    aospa_cebu-userdebug \
     aospa_davinci-userdebug \
     aospa_devon-userdebug \
     aospa_dubai-userdebug \
     aospa_fuxi-userdebug \
+    aospa_guam-userdebug \
+    aospa_guamp-userdebug \
+    aospa_hawao-userdebug \
     aospa_ishtar-userdebug \
     aospa_lahaina-userdebug \
     aospa_lito-userdebug \
@@ -72,6 +83,7 @@ COMMON_LUNCH_CHOICES += \
     aospa_phone2-userdebug \
     aospa_porsche-userdebug \
     aospa_psyche-userdebug \
+    aospa_rhode-userdebug \
     aospa_sky-userdebug \
     aospa_spes-userdebug \
     aospa_sunny-userdebug \
