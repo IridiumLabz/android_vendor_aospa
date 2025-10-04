@@ -8,4 +8,7 @@
 
   <remove-project name="AOSPA/android_hardware_qcom_audio" />
   <project path="vendor/qcom/opensource/audio-hal/primary-hal" name="AOSPA/android_hardware_qcom_audio" remote="aospa" revision="vauxite-bengal" />
+
+  <remove-project name="AOSPA/android_hardware_qcom_thermal" />
+  <project path="vendor/qcom/opensource/thermal-hal" name="AOSPA/android_hardware_qcom_thermal" remote="aospa" revision="vauxite-legacy" />
 </manifest>
