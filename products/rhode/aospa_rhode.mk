@@ -23,8 +23,6 @@ PRODUCT_MANUFACTURER := motorola
 # Bootanimation
 TARGET_BOOT_ANIMATION_RES := 1080
 
-PRODUCT_GMS_CLIENTID_BASE := android-motorola
-
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="rhode_g-user 13 T2SR33.72-22-4-13 6b3c4b-075d74 release-keys" \
     BuildFingerprint=motorola/rhode_g/rhode:13/T2SR33.72-22-4-13/6b3c4b-075d74:user/release-keys \
