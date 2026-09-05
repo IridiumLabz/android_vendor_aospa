@@ -6,4 +6,23 @@
 <manifest>
   <include name="../platforms/bengal.xml" />
 
+  <remove-project name="AOSPA/android_packages_apps_ParanoidSense" />
+  <remove-project name="proprietary_vendor_qcom_common" />
+  <remove-project name="AOSPA/android_hardware_qcom_display" />
+
+  <project path="hardware/qcom/display" name="IridiumLabz/android_hardware_qcom_display" remote="github" revision="vauxite-865" />
+
+  <project path="device/motorola/rhode" name="IridiumLabz/android_device_motorola_rhode" remote="github" revision="vauxite" />
+  <project path="device/motorola/sm6225-common" name="IridiumLabz/android_device_motorola_sm6225-common" remote="github" revision="vauxite" />
+  <project path="hardware/dolby" name="swiitch-OFF-Lab/hardware_dolby" remote="github" revision="d2bf65ba67151d28bb330a44114cc557c36cc6a8" />
+  <project path="hardware/motorola" name="IridiumLabz/android_hardware_motorola" remote="github" revision="vauxite" />
+  <project path="kernel/motorola/kernel-headers" name="IridiumLabz/kernel_motorola_kernel-headers" remote="github" revision="vauxite" />
+  <project path="kernel/motorola/sm6225" name="IridiumLabz/android_kernel_motorola_sm6225" remote="github" revision="Ayanami-rc2-kona-2" />
+  <project path="vendor/qcom/common" name="IridiumLabz/proprietary_vendor_qcom_common" remote="github" revision="vauxite" />
+  <project path="vendor/motorola/MotoFm" name="4mede/MotoFm" remote="github" revision="c0eccc795725aa9eb78e7845bf629f30d2c91fe9" />
+  <project path="vendor/motorola/MotoSignatureApp" name="Deivid21/proprietary_vendor_motorola_MotoSignatureApp" remote="gitlab" revision="android-15" />
+  <project path="vendor/motorola/MotorolaSettingsProvider" name="Deivid21/proprietary_vendor_motorola_MotorolaSettingsProvider" remote="gitlab" revision="android-15" />
+  <project path="vendor/motorola/rhode" name="IridiumLabz/proprietary_vendor_motorola_rhode" remote="github" revision="vauxite" clone-depth="1" />
+  <project path="vendor/motorola/sm6225-common" name="IridiumLabz/proprietary_vendor_motorola_sm6225-common" remote="github" revision="vauxite" clone-depth="1" />
+
 </manifest>
